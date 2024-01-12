@@ -6,7 +6,8 @@ public class Base {
 
         if (state.equals("낮")) { //문자열의 같다(==) 는 equals()를 사용합니다.
             day();
-        } else {
+        } 
+        else {
             night();
         }
     }
